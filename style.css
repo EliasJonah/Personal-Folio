@@ -23,6 +23,12 @@ p {
 	margin: 0 0 10px;
 }
 
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
 /* Page
 ================*/
 
@@ -38,5 +44,6 @@ p {
 ================*/
 
 .header {
+	height: 60px;
 	background-color: #2b7ded;
 }
