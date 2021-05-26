@@ -35,6 +35,7 @@ p {
 .page {
 	width: 100%;
 	height: 100vh;
+	position: relative;
 
 	background: url(img/bg.jpg) center no-repeat;
 	background-size: cover;
@@ -154,4 +155,15 @@ p {
 
 .btn:hover {
 	background-color: #2A60AB;
+}
+
+/* Author
+================*/
+
+.author {
+	position: absolute;
+	height: 550px;
+
+	right: 20px;
+	bottom: 0;
 }
