@@ -4,7 +4,7 @@ html {
 
 body {
 	margin: 0;
-	font-family: 'Monsterrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	line-height: 1.6rem;
 }
@@ -44,6 +44,7 @@ p {
 ================*/
 
 .header {
+	margin-bottom: 100px;
 	color: white;
 	height: 60px;
 	background-color: #2b7ded;
@@ -73,7 +74,7 @@ p {
 	margin-left: 1.5rem;
 	color: #fff;
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: medium;
 	text-decoration: none;
 
 	transition: color .2s linear;
@@ -99,3 +100,58 @@ p {
 	bottom: -3px;
 }
 
+
+/* Content
+================*/
+
+.content {
+	width: 600px;
+}
+
+.subtitle {
+	font-size: 1.4rem;
+	color: rgba(255, 255, 255, .6);
+	font-weight: 300;
+}
+
+.title {
+	margin-bottom: 35px;
+
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.title span {
+	color: #2b7ded;
+}
+
+.text {
+	font-size: 1rem;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+
+/* Button
+================*/
+
+.btn {
+	padding: 11.75px 35px;
+	font-size: 1rem;
+	line-height: 1.1;
+	color: #fff;
+	font-weight: 500;
+
+	display: inline-block;
+	background-color: #2b7ded;
+	border-radius: 5px;
+	text-decoration: none;
+
+	transition: background .2s linear;
+}
+
+.btn:hover {
+	background-color: #2A60AB;
+}
